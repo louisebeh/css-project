@@ -4,6 +4,7 @@
   "description": "Node Parallax Project",
   "main": "index.js",
   "dependencies": {
+    "ejs": "^2.3.1",
     "express": "^4.12.2"
   },
   "devDependencies": {},
