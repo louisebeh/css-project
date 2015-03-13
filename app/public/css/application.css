@@ -6,7 +6,6 @@ header > * {
   }
 
 header {
-  position: static;
   height: 100px;
   background-color: rgba(255, 49, 47, 0.8);
   color: white;
@@ -19,15 +18,43 @@ header #logo {
   color: white;
   text-decoration: none;
   display: flex;
+  font-size: 120%;
 }
 
-header #borough {
-  margin: auto 0;
-  vertical-align: right;
-  color: white;
-  text-decoration: none;
-  display: flex;
+a.button {
+  display: inline-block; /* display inline but have dimensions */
+   width: 80px;
+   background-color: rgba(249, 251, 247, 0.9);
+   border: 0px solid white;
+   color: black; /*text colour*/
+   text-decoration: none; /*no underlining*/
+   padding: 5px 10px;
+   text-align: center;
+   vertical-align: center;
+   border-radius: 4px; /*rounded corners*/
+   margin-left: 5px;
+   margin-right: 5px;
+   margin: 5px;
+   text-shadow: 0 0 0px rgba(0,0,0, 0.4); /*for readability*/
 }
+
+a.button2 {
+  display: inline-block; /* display inline but have dimensions */
+  width: 130px;
+  background-color: rgba(249, 251, 247, 0.9);
+  border: 0px solid white;
+  color: black; /*text colour*/
+  text-decoration: none; /*no underlining*/
+  padding: 5px 10px;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 4px; /*rounded corners*/
+  margin-left: 5px;
+  margin-right: 5px;
+  margin: 5px;
+  text-shadow: 0 0 0px rgba(0,0,0, 0.4); /*for readability*/
+}
+
 
 /* Parallax base styles
   --------------------------------------------- */
